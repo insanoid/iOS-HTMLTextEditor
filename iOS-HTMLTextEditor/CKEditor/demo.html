@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UI Color Picker &mdash; CKEditor Sample</title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+	<script type="text/javascript" src="ckeditor.js"></script>
+</head>
+<body>
+	<p>
+    <textarea cols="80" id="editor1" name="editor1" rows="10">Content goes here. Replaced on WebViewDidLoad:</textarea>
+		<script type="text/javascript">
+		//<![CDATA[
+
+			// Replace the <textarea id="editor"> with an CKEditor
+			// instance, using default configurations.
+			CKEDITOR.replace( 'editor1',
+				{
+					extraPlugins : 'uicolor',
+					removePlugins: 'elementspath',
+					toolbar :
+					[
+						[ 'Bold', 'Italic', 'Underline','NumberedList','BulletedList']
+					]
+				});
+
+		//]]>
+		</script>
+	</p>
+	
+	
+</body>
+</html>
