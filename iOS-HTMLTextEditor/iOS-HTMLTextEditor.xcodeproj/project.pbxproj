@@ -236,6 +236,7 @@
 				GCC_PREFIX_HEADER = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Prefix.pch";
 				INFOPLIST_FILE = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,6 +248,7 @@
 				GCC_PREFIX_HEADER = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Prefix.pch";
 				INFOPLIST_FILE = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -270,6 +272,7 @@
 				93EEB76215D553CF0043318F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
