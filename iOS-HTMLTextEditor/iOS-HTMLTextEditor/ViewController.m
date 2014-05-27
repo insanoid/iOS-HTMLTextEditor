@@ -54,6 +54,7 @@
 -(void)webViewDidFinishLoad:(UIWebView *)_webView{
     
     [_webView stringByEvaluatingJavaScriptFromString:@"document.getElementById('editor1').innerHTML='<b>Hello</b> <i>World</i>!';"];
+    [_webView stringByEvaluatingJavaScriptFromString:@"document.getElementById('editor1').focus();"];
 }
 
 - (IBAction)evaluate:(id)sender {
