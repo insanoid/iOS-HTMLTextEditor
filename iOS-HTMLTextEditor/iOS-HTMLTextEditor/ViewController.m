@@ -46,7 +46,7 @@
 
 - (void)loadContent {
     
-    NSString *path =[[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/CKEditor/demo.html"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"/CKEditor/demo.html" ofType:nil];
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:path]]];
     
 }
