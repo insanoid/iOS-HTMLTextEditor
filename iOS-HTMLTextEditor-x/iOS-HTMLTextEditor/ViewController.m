@@ -28,74 +28,35 @@
 
 @implementation ViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     [self loadContent];
-    
-	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
+#pragma mark - Load content locally.
 
 - (void)loadContent {
-    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"/CKEditor/demo.html" ofType:nil];
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:path]]];
-    
 }
 
+
+#pragma mark - WebView Methods
+
 -(void)webViewDidFinishLoad:(UIWebView *)_webView{
-    
-    [_webView stringByEvaluatingJavaScriptFromString:@"document.getElementById('editor1').innerHTML='<b>Hello</b> <i>World</i>!';"];
-    [_webView stringByEvaluatingJavaScriptFromString:@"document.getElementById('editor1').focus();"];
+    [_webView stringByEvaluatingJavaScriptFromString:
+     @"document.getElementById('editor').innerHTML='<b>'Hello</b> <i>World</i>!';"];
+    [_webView stringByEvaluatingJavaScriptFromString:
+     @"document.getElementById('editor').focus();"];
 }
 
 - (IBAction)evaluate:(id)sender {
-    
-    
-    NSString *html = [webView stringByEvaluatingJavaScriptFromString: 
-                      @"CKEDITOR.instances.editor1.getData()"];
+    NSString *html = [webView stringByEvaluatingJavaScriptFromString:
+                      @"CKEDITOR.instances.editor.getData()"];
     contentLabel.text = html;
-    
-}
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation==UIInterfaceOrientationPortrait);
 }
 
 @end
