@@ -7,93 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93EEB74715D553CF0043318F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EEB74615D553CF0043318F /* UIKit.framework */; };
-		93EEB74915D553CF0043318F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EEB74815D553CF0043318F /* Foundation.framework */; };
-		93EEB74B15D553CF0043318F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EEB74A15D553CF0043318F /* CoreGraphics.framework */; };
-		93EEB75315D553CF0043318F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EEB75215D553CF0043318F /* main.m */; };
-		93EEB75715D553CF0043318F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EEB75615D553CF0043318F /* AppDelegate.m */; };
-		93EEB76615D553F90043318F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EEB76415D553F90043318F /* ViewController.m */; };
-		93EEB76715D553F90043318F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EEB76515D553F90043318F /* ViewController.xib */; };
-		93EEB76915D554150043318F /* CKEditor in Resources */ = {isa = PBXBuildFile; fileRef = 93EEB76815D554150043318F /* CKEditor */; };
+		9373CAD41DC36FF200156CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9373CAD31DC36FF200156CFE /* main.m */; };
+		9373CAD71DC36FF200156CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9373CAD61DC36FF200156CFE /* AppDelegate.m */; };
+		9373CADA1DC36FF200156CFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9373CAD91DC36FF200156CFE /* ViewController.m */; };
+		9373CADD1DC36FF200156CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9373CADB1DC36FF200156CFE /* Main.storyboard */; };
+		9373CADF1DC36FF200156CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9373CADE1DC36FF200156CFE /* Assets.xcassets */; };
+		9373CAE21DC36FF200156CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9373CAE01DC36FF200156CFE /* LaunchScreen.storyboard */; };
+		9373CAEA1DC3701800156CFE /* CKEditor in Resources */ = {isa = PBXBuildFile; fileRef = 9373CAE91DC3701800156CFE /* CKEditor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93EEB74215D553CF0043318F /* iOS-HTMLTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-HTMLTextEditor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93EEB74615D553CF0043318F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		93EEB74815D553CF0043318F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		93EEB74A15D553CF0043318F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		93EEB74E15D553CF0043318F /* iOS-HTMLTextEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-HTMLTextEditor-Info.plist"; sourceTree = "<group>"; };
-		93EEB75215D553CF0043318F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93EEB75415D553CF0043318F /* iOS-HTMLTextEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-HTMLTextEditor-Prefix.pch"; sourceTree = "<group>"; };
-		93EEB75515D553CF0043318F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		93EEB75615D553CF0043318F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		93EEB76315D553F90043318F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		93EEB76415D553F90043318F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		93EEB76515D553F90043318F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		93EEB76815D554150043318F /* CKEditor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CKEditor; sourceTree = "<group>"; };
+		9373CACF1DC36FF200156CFE /* iOS-HTMLTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-HTMLTextEditor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9373CAD31DC36FF200156CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9373CAD51DC36FF200156CFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9373CAD61DC36FF200156CFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9373CAD81DC36FF200156CFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9373CAD91DC36FF200156CFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9373CADC1DC36FF200156CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9373CADE1DC36FF200156CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9373CAE11DC36FF200156CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9373CAE31DC36FF200156CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9373CAE91DC3701800156CFE /* CKEditor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CKEditor; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		93EEB73F15D553CF0043318F /* Frameworks */ = {
+		9373CACC1DC36FF200156CFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EEB74715D553CF0043318F /* UIKit.framework in Frameworks */,
-				93EEB74915D553CF0043318F /* Foundation.framework in Frameworks */,
-				93EEB74B15D553CF0043318F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		93EEB73715D553CE0043318F = {
+		9373CAC61DC36FF200156CFE = {
 			isa = PBXGroup;
 			children = (
-				93EEB76815D554150043318F /* CKEditor */,
-				93EEB74C15D553CF0043318F /* iOS-HTMLTextEditor */,
-				93EEB74515D553CF0043318F /* Frameworks */,
-				93EEB74315D553CF0043318F /* Products */,
+				9373CAE91DC3701800156CFE /* CKEditor */,
+				9373CAD11DC36FF200156CFE /* iOS-HTMLTextEditor */,
+				9373CAD01DC36FF200156CFE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		93EEB74315D553CF0043318F /* Products */ = {
+		9373CAD01DC36FF200156CFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93EEB74215D553CF0043318F /* iOS-HTMLTextEditor.app */,
+				9373CACF1DC36FF200156CFE /* iOS-HTMLTextEditor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93EEB74515D553CF0043318F /* Frameworks */ = {
+		9373CAD11DC36FF200156CFE /* iOS-HTMLTextEditor */ = {
 			isa = PBXGroup;
 			children = (
-				93EEB74615D553CF0043318F /* UIKit.framework */,
-				93EEB74815D553CF0043318F /* Foundation.framework */,
-				93EEB74A15D553CF0043318F /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		93EEB74C15D553CF0043318F /* iOS-HTMLTextEditor */ = {
-			isa = PBXGroup;
-			children = (
-				93EEB75515D553CF0043318F /* AppDelegate.h */,
-				93EEB75615D553CF0043318F /* AppDelegate.m */,
-				93EEB76315D553F90043318F /* ViewController.h */,
-				93EEB76415D553F90043318F /* ViewController.m */,
-				93EEB76515D553F90043318F /* ViewController.xib */,
-				93EEB74D15D553CF0043318F /* Supporting Files */,
+				9373CAD51DC36FF200156CFE /* AppDelegate.h */,
+				9373CAD61DC36FF200156CFE /* AppDelegate.m */,
+				9373CAD81DC36FF200156CFE /* ViewController.h */,
+				9373CAD91DC36FF200156CFE /* ViewController.m */,
+				9373CADB1DC36FF200156CFE /* Main.storyboard */,
+				9373CADE1DC36FF200156CFE /* Assets.xcassets */,
+				9373CAE01DC36FF200156CFE /* LaunchScreen.storyboard */,
+				9373CAE31DC36FF200156CFE /* Info.plist */,
+				9373CAD21DC36FF200156CFE /* Supporting Files */,
 			);
 			path = "iOS-HTMLTextEditor";
 			sourceTree = "<group>";
 		};
-		93EEB74D15D553CF0043318F /* Supporting Files */ = {
+		9373CAD21DC36FF200156CFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				93EEB74E15D553CF0043318F /* iOS-HTMLTextEditor-Info.plist */,
-				93EEB75215D553CF0043318F /* main.m */,
-				93EEB75415D553CF0043318F /* iOS-HTMLTextEditor-Prefix.pch */,
+				9373CAD31DC36FF200156CFE /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,13 +85,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93EEB74115D553CF0043318F /* iOS-HTMLTextEditor */ = {
+		9373CACE1DC36FF200156CFE /* iOS-HTMLTextEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93EEB76015D553CF0043318F /* Build configuration list for PBXNativeTarget "iOS-HTMLTextEditor" */;
+			buildConfigurationList = 9373CAE61DC36FF200156CFE /* Build configuration list for PBXNativeTarget "iOS-HTMLTextEditor" */;
 			buildPhases = (
-				93EEB73E15D553CF0043318F /* Sources */,
-				93EEB73F15D553CF0043318F /* Frameworks */,
-				93EEB74015D553CF0043318F /* Resources */,
+				9373CACB1DC36FF200156CFE /* Sources */,
+				9373CACC1DC36FF200156CFE /* Frameworks */,
+				9373CACD1DC36FF200156CFE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,170 +99,222 @@
 			);
 			name = "iOS-HTMLTextEditor";
 			productName = "iOS-HTMLTextEditor";
-			productReference = 93EEB74215D553CF0043318F /* iOS-HTMLTextEditor.app */;
+			productReference = 9373CACF1DC36FF200156CFE /* iOS-HTMLTextEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		93EEB73915D553CE0043318F /* Project object */ = {
+		9373CAC71DC36FF200156CFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Karthik;
+				TargetAttributes = {
+					9373CACE1DC36FF200156CFE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
-			buildConfigurationList = 93EEB73C15D553CE0043318F /* Build configuration list for PBXProject "iOS-HTMLTextEditor" */;
+			buildConfigurationList = 9373CACA1DC36FF200156CFE /* Build configuration list for PBXProject "iOS-HTMLTextEditor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 93EEB73715D553CE0043318F;
-			productRefGroup = 93EEB74315D553CF0043318F /* Products */;
+			mainGroup = 9373CAC61DC36FF200156CFE;
+			productRefGroup = 9373CAD01DC36FF200156CFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93EEB74115D553CF0043318F /* iOS-HTMLTextEditor */,
+				9373CACE1DC36FF200156CFE /* iOS-HTMLTextEditor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		93EEB74015D553CF0043318F /* Resources */ = {
+		9373CACD1DC36FF200156CFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EEB76715D553F90043318F /* ViewController.xib in Resources */,
-				93EEB76915D554150043318F /* CKEditor in Resources */,
+				9373CAE21DC36FF200156CFE /* LaunchScreen.storyboard in Resources */,
+				9373CAEA1DC3701800156CFE /* CKEditor in Resources */,
+				9373CADF1DC36FF200156CFE /* Assets.xcassets in Resources */,
+				9373CADD1DC36FF200156CFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93EEB73E15D553CF0043318F /* Sources */ = {
+		9373CACB1DC36FF200156CFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EEB75315D553CF0043318F /* main.m in Sources */,
-				93EEB75715D553CF0043318F /* AppDelegate.m in Sources */,
-				93EEB76615D553F90043318F /* ViewController.m in Sources */,
+				9373CADA1DC36FF200156CFE /* ViewController.m in Sources */,
+				9373CAD71DC36FF200156CFE /* AppDelegate.m in Sources */,
+				9373CAD41DC36FF200156CFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		9373CADB1DC36FF200156CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9373CADC1DC36FF200156CFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9373CAE01DC36FF200156CFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9373CAE11DC36FF200156CFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		93EEB75E15D553CF0043318F /* Debug */ = {
+		9373CAE41DC36FF200156CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		93EEB75F15D553CF0043318F /* Release */ = {
+		9373CAE51DC36FF200156CFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		93EEB76115D553CF0043318F /* Debug */ = {
+		9373CAE71DC36FF200156CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Prefix.pch";
-				INFOPLIST_FILE = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Info.plist";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-HTMLTextEditor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.iOS-HTMLTextEditor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		93EEB76215D553CF0043318F /* Release */ = {
+		9373CAE81DC36FF200156CFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Prefix.pch";
-				INFOPLIST_FILE = "iOS-HTMLTextEditor/iOS-HTMLTextEditor-Info.plist";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-HTMLTextEditor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.iOS-HTMLTextEditor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93EEB73C15D553CE0043318F /* Build configuration list for PBXProject "iOS-HTMLTextEditor" */ = {
+		9373CACA1DC36FF200156CFE /* Build configuration list for PBXProject "iOS-HTMLTextEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93EEB75E15D553CF0043318F /* Debug */,
-				93EEB75F15D553CF0043318F /* Release */,
+				9373CAE41DC36FF200156CFE /* Debug */,
+				9373CAE51DC36FF200156CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93EEB76015D553CF0043318F /* Build configuration list for PBXNativeTarget "iOS-HTMLTextEditor" */ = {
+		9373CAE61DC36FF200156CFE /* Build configuration list for PBXNativeTarget "iOS-HTMLTextEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93EEB76115D553CF0043318F /* Debug */,
-				93EEB76215D553CF0043318F /* Release */,
+				9373CAE71DC36FF200156CFE /* Debug */,
+				9373CAE81DC36FF200156CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 93EEB73915D553CE0043318F /* Project object */;
+	rootObject = 9373CAC71DC36FF200156CFE /* Project object */;
 }

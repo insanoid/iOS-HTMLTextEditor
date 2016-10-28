@@ -5,32 +5,19 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>UI Color Picker &mdash; CKEditor Sample</title>
+	<title>CKEditor</title>
 	<meta content="text/html; charset=utf-8" http-equiv="content-type" />
 	<script type="text/javascript" src="ckeditor.js"></script>
+	<script src="setup-script.js"></script>
 </head>
 <body>
 	<p>
-    <textarea cols="80" id="editor1" name="editor1" rows="10">Content goes here. Replaced on WebViewDidLoad:</textarea>
-		<script type="text/javascript">
-		//<![CDATA[
-
-			// Replace the <textarea id="editor"> with an CKEditor
-			// instance, using default configurations.
-			CKEDITOR.replace( 'editor1',
-				{
-					extraPlugins : 'uicolor',
-					removePlugins: 'elementspath',
-					toolbar :
-					[
-						[ 'Bold', 'Italic', 'Underline','NumberedList','BulletedList']
-					]
-				});
-
-		//]]>
+		<div id="editor">Content goes here. Replaced on WebViewDidLoad:</div>
+		<script>
+			initSample();
 		</script>
 	</p>
-	
-	
+
+
 </body>
 </html>
